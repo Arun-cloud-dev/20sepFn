@@ -1,0 +1,42 @@
+article{
+    background-color: yellow;
+}
+
+
+h3{
+    background-color: green;
+}
+
+.green{
+    background-color:green;
+}
+
+.purple{
+    background-color: purple;
+}
+
+
+.tb {
+    width: 300px;
+    border-collapse: collapse;
+    
+    }
+
+    .tb th, .tb td{
+        border: solid 1px #777; 
+        padding:10px;
+    }
+
+    .tb th{
+        background-color: rgb(15, 120, 212);
+    }
+
+    legend{
+      background-color: red;
+    }
+    fieldset{
+        color: yellow;
+    }
+
+
+
