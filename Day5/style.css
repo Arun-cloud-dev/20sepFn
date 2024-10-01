@@ -1,0 +1,12 @@
+.a {
+    background-color: pink;
+padding-left: 50%;
+}
+
+.a, .b{
+    font-size: larger;
+}
+
+.c {
+    background-color: green;
+}
