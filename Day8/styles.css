@@ -1,0 +1,12 @@
+:root{
+    --ar:rgb(101, 130, 233) ;
+    --br:rgb(72, 236, 72);
+}
+
+
+body{
+    background-color: var(--ar);
+}
+input, textarea{
+    background-color: var(--br);
+}
