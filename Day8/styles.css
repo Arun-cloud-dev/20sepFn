@@ -10,3 +10,13 @@ body{
 input, textarea{
     background-color: var(--br);
 }
+
+h1{
+    color: green;
+}
+.red{
+    color: red;
+}
+.br{
+    border: 2px solid yellow;
+}
