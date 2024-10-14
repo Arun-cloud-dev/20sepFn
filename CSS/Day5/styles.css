@@ -1,0 +1,55 @@
+.flex-nowrap{
+    background-color: blue;
+    padding: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.flex-nowrap > div{
+    background-color: aqua;
+    margin: 5px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 18px;
+    text-align: center;
+    width :100%;}
+
+
+
+
+    .flex-wrap{
+        background-color: blueviolet;
+        padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex-wrap > div {
+        background-color: aquamarine;
+        margin: 5px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        font-size: 19px;
+        width :100px;
+
+    }
+
+
+
+    .flex-align{
+        background-color: black;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .flex-align > div {
+        background-color: white;
+        margin: 5px;
+        height: 80px;
+        width: 100px;
+        line-height: 80px;
+        text-align: center;
+        font-size: 18px;
+    }

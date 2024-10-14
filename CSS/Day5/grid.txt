@@ -1,0 +1,18 @@
+Property	   Description
+grid     	   A shorthand property for a grid container. Sets all grid properties in a single declaration.
+grid-area	        A shorthand property for a grid item. Sets the item's size and location in a grid.
+grid-auto-columns	A grid container property that sets the size of a grid column.
+grid-auto-flow	    A grid container property that sets how auto-placed items flow in the grid.
+grid-auto-rows	    A grid container property that sets the size of a grid row.
+grid-column	        A shorthand property for a grid item that sets the element's size and location within a column.
+grid-column-end	    An item property that sets the element's end position within the grid column.
+grid-column-gap	    A grid container property that sets the gap (gutter) between the columns.
+grid-column-start	An item property that sets the element's start position within the grid column.
+grid-gap	        A grid container property that sets the gap (gutter) between the rows and columns.
+grid-row	        An item property that sets the size and location within the row.
+grid-row-end	    An item property that sets the element's end position within the grid row.
+grid-row-gap	    A grid container property that sets the gap (gutter) between the rows.
+grid-row-start	    An item property that sets the element's start position within the grid row.
+grid-template	    A grid container property that is a shorthand for defining rows, columns, and areas.
+grid-template-columns--Defines the container line names and track sizing functions of the columns.
+grid-template-rows--Defines the container line names and track sizing functions of the rows.
