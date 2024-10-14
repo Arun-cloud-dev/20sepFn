@@ -19,7 +19,8 @@ grid-template-rows--Defines the container line names and track sizing functions 
 
 
 
-links 
+links - flexbox 
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
-https://css-tricks.com/almanac/properties/w/whitespace/
+
