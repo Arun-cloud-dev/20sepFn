@@ -16,3 +16,10 @@ grid-row-start	    An item property that sets the element's start position withi
 grid-template	    A grid container property that is a shorthand for defining rows, columns, and areas.
 grid-template-columns--Defines the container line names and track sizing functions of the columns.
 grid-template-rows--Defines the container line names and track sizing functions of the rows.
+
+
+
+links 
+
+
+https://css-tricks.com/almanac/properties/w/whitespace/
