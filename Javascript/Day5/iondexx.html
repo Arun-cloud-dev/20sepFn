@@ -14,14 +14,23 @@
 
     <script>
         function showDate(){
-    const today = new Date();
+        const today = new Date();
 
 
 
-    const day = String(today.getDate()).padStart(2,"0");
-    const month = String (today.getMonth())
+    const day = (today.getDate());
+    const month = (today.getMonth()+1);
+    const year = today.getFullYear();
 
-}    </script>
+
+    document.getElementById("datedisplay"). innerText= `todays day is ${day}/${month}/${year}`;
+
+}    
+
+showDate()
+
+
+</script>
 
 </body>
 </html>
