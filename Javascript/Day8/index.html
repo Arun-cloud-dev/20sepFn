@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoutDown Timer </title>
+</head>
+<body>
+    <h1>Countdown Timer </h1>
+    <p>Counting  down to the specific date and time </p>
+    <div id="countdown"></div>
+
+<style>
+    body{
+    text-align: center;
+    padding: 20%;
+    background-color: aquamarine;
+    }
+    #countdown{
+        font-size: 6rem;
+        border: 2px solid yellow;
+  border-radius: 50%;
+  padding: 20%;
+    }
+</style>
+
+    <script>
+        const countDowndate = new Date("oct 30, 2024 12:00:00").getTime();
+    
+const x = setInterval(function (){
+    const now = new Date().getTime();
+    const distance = countDowndate - now;
+
+
+
+
+const days = Math.floor(distance/(1000*60*60*24));
+const hours = Math.floor((distance % (1000*60*60*24))/(1000*60*60));
+const minutes = Math.floor((distance % (1000*60*60))/ (1000*60));
+const seconds = Math.floor((distance % (1000*60))/1000);
+
+document.getElementById('countdown').innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`; 
+
+if (distance < 0 ) {
+    clearInterval(x) ;
+    document.getElementById("countdown").innerHTML = "Expired"}
+
+},100)
+
+
+
+    
+    </script>
+
+</body>
+</html>
