@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local storage js </title>
+</head>
+<body>
+        <input type="button"  value="setCookies"  onclick="setCookies()"/>
+        <input type="button" value="getCookies" onclick="getCookies()"> 
+
+<script>
+    function setCookies(){
+        document.cookie = "welcome back Students"
+    }
+
+    function getCookies(){
+        if (document.cookie.length !=0 ){
+            alert (document.cookie)
+        }else {
+            alert("cookie not Available")
+        }
+
+    }
+</script>
+
+
+</body>
+</html>
